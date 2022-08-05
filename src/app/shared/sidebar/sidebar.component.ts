@@ -13,6 +13,9 @@ export class SidebarComponent {
 
   constructor( private gifService: GifsService ) {}
 
-
+  searchItem( termino: string ){
+    console.log('sdsd',termino)
+   // this.gifService.searchGifs( termino );
+  }
  
 }
